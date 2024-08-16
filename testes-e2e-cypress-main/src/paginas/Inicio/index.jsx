@@ -9,13 +9,18 @@ import dispositivo from 'assets/dispositivo.svg';
 export default function Inicio() {
   return (
     <>
-      <div className={estilos.container}>
-        <div className={estilos.conteudo}>
-          <div className={estilos.banner}>
+      <div className={estilos.container}data-test="container">
+        <div className={estilos.conteudo}data-test="conteudo">
+          <div className={estilos.banner}data-test="saque">
             <h1 data-test="titulo-principal">
               Experimente mais liberdade no controle da sua vida financeira.
               Crie sua conta com a gente!
             </h1>
+
+            <h2 data-test="subtitulo" >
+              Bem-vindo ao nosso site
+            </h2>
+
             <img
               src={ilustracaoBanner}
               alt="Gráficos e uma pessoa com dinheiro na mão"
