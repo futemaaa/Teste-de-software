@@ -19,6 +19,7 @@ describe('Página Inicial', () => {
   it('Deve renderizar p com o texto correto!', () => {
     cy.getByData('paragrafo01').contains('Isso mesmo, nossa conta é digital, sem custo fixo e mais que isso: sem tarifa de manutenção.')
   })
+
   it('Deve renderizar img com uma imagem', () => {
     cy.getByData('imagem').should('be.visible')
   })

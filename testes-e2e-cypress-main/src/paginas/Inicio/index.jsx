@@ -32,13 +32,13 @@ export default function Inicio() {
               <div className={estilos.vantagens__item}>
                 <img src={presente} alt="ícone de um presente" />
                 <h3 data-test='textos02'>Conta e cartão gratuitos</h3>
-                <p>
+                <p data-test="paragrafo01" >
                   Isso mesmo, nossa conta é digital, sem custo fixo e mais que
                   isso: sem tarifa de manutenção.
                 </p>
               </div>
               <div className={estilos.vantagens__item}>
-                <img src={saque} alt="ícone de uma mão segurando um dinheiro" />
+                <img data-test="imagem" src={saque} alt="ícone de uma mão segurando um dinheiro" />
                 <h3>Saques sem custo</h3>
                 <p>
                   Você pode sacar gratuitamente 4x por mês de qualquer Banco
