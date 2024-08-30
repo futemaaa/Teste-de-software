@@ -25,15 +25,6 @@ describe('Testando dispositivos móveis', () => {
           })
 
           /* seu teste aqui */
-
-          describe('Menu de navegação', () => {
-            context('Resolução de 720p', () => {
-              beforeEach(() => {
-                /* Roda os testes como se fossem em um monitor de 720p de resolução */
-                cy.viewport(1280, 720)
-              })
-              
-            })
+        
         })
     })
-})

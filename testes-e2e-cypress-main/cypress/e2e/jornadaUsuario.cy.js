@@ -3,7 +3,7 @@ describe('Jornadas de usuário', () => {
     cy.visit('/')
     cy.getByData('botao-login').click()
     cy.getByData('email-input').type('neilton@alura.com')
-    cy.getByData('senha-input').type('123456')
+    cy.getByData('senha-input').type('1234567')
     cy.getByData('botao-enviar').click()
     cy.location('pathname').should('eq','/home')
     cy.getByData('select-opcoes').select('Transferência') 
